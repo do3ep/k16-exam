@@ -1,0 +1,17 @@
+/*.iml
+/*.log*
+/.cache
+/.idea
+/.npm
+/.phpstorm.meta.php
+/.temp
+/.vscode
+/_ide_helper.php
+/composer.phar
+/bower_components
+/nbproject/
+/node_modules/
+/vendor
+
+.DS_Store
+thumbs.db
