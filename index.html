@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>k16-exam</title>
+		<link rel="stylesheet" href="./materials/index.css">
+		<link rel="stylesheet" href="./materials/swiper.css">
+		<style>
+			@font-face {
+              font-family: "EuropeExt";
+              src: url("./materials/fonts/EuropeExtNormal.woff") format("woff"),
+                url("./materials/fonts/EuropeExtNormal.woff2") format("woff2");
+              font-weight: normal;
+              font-style: normal;
+            }
+            @font-face {
+              font-family: "EuropeExtBold";
+              src: url("./materials/fonts/EuropeExtBold.woff") format("woff"),
+                url("./materials/fonts/EuropeExtBold.woff2") format("woff2");
+              font-weight: normal;
+              font-style: normal;
+            }
+		</style>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<div class="head-cont">
+			<div class="menu-cont">
+				<ul class="ul-cont">
+					<li><a href="#">ГЛАВНАЯ</a></li>
+					<li><a href="#">О КОМПАНИИ</a></li>
+					<li><a href="#">ВАКАНСИИ</a></li>
+					<li><a href="#">ПРОДУКЦИЯ</a></li>
+					<li><a href="#">ФОТОГАЛЕРЕЯ</a></li>
+					<li><a href="#">НОВОСТИ</a></li>
+					<li><a href="#">СТАТЬИ</a></li>
+					<li><a href="#">КОНТАКТЫ</a></li>
+				</ul>
+            </div>
+		</div>
+		<!--BLOCK-SLIDER-->
+		<div class="slider-back">
+			<div class="slider-cont">
+				<a href="#" class="sl-logo"><img src="./materials/images/sl-logo.png"  alt="" ></a>
+				<a href="#" class="sl-in"><img src="./materials/images/vk.png"  alt="" ></a>
+				<a href="#" class="sl-vk"><img src="./materials/images/in.png"  alt="" ></a>
+				<span class="sl-text">МЫ В СОЦИАЛЬНИХ СЕТЯХ</span>
+				<span class="sl-adres">
+					тел:
+					<a href="tel:+380552314410">+38(0552)314-410,</a>
+					<a href="tel:+380552314403">314-403;</a>
+					<a href="tel:+380552359214">факс:+38(0552)359-214</a><br>
+					<a href="mailto:info@penoboard.com">e-mail:info@penoboard.com</a>
+                </span>
+                <span class="sl-inp">
+                	<input type="search">
+                	<span class="sl-subm"><input type="submit"></span>
+                </span>
+                <!---SWIPER-->
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./materials/images/Layer-1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./materials/images/Layer-2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./materials/images/Layer-3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./materials/images/Layer-4.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./materials/images/Layer-5.png" alt=""></div>
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+                  <!-- Add Arrows -->
+                  <div class="swiper-button-next but-right"></div>
+                  <div class="swiper-button-prev but-left"></div>
+              </div>
+              <div class="sl-block"></div>
+              <span class="sl-text_1">СЕГОДНЯ ИННОВАЦИЯ - <br> ЗАВТРА НЕОБХОДИМОСТЬ</span>
+              <span class="sl-text_2">ЭНЕРГОСБЕРЕЖЕНИЕ НОВОГО ПОКОЛЕНИЯ</span>
+			</div>
+
+		</div>
+
+		<!-- Swiper JS -->
+  <script src="./materials/swiper.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    /*var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });*/
+  </script>		
+	</body>
+</html>
