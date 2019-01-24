@@ -2,10 +2,13 @@
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>k16-exam</title>
 		<link rel="stylesheet" href="./materials/index.css">
 		<link rel="stylesheet" href="./materials/swiper.css">
-		<style>
+    <link rel="stylesheet" href="./materials/magnific-popup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
 			@font-face {
               font-family: "EuropeExt";
               src: url("./materials/fonts/EuropeExtNormal.woff") format("woff"),
@@ -13,7 +16,7 @@
               font-weight: normal;
               font-style: normal;
             }
-            @font-face {
+      @font-face {
               font-family: "EuropeExtBold";
               src: url("./materials/fonts/EuropeExtBold.woff") format("woff"),
                 url("./materials/fonts/EuropeExtBold.woff2") format("woff2");
@@ -36,7 +39,7 @@
 					<li><a href="#">СТАТЬИ</a></li>
 					<li><a href="#">КОНТАКТЫ</a></li>
 				</ul>
-            </div>
+      </div>
 		</div>
 		<!--BLOCK-SLIDER-->
 		<div class="slider-back">
@@ -70,48 +73,369 @@
                   <!-- Add Arrows -->
                   <div class="swiper-button-next but-right"></div>
                   <div class="swiper-button-prev but-left"></div>
-              </div>
+                </div>
               <div class="sl-block"></div>
               <span class="sl-text_1">СЕГОДНЯ ИННОВАЦИЯ - <br> ЗАВТРА НЕОБХОДИМОСТЬ</span>
               <span class="sl-text_2">ЭНЕРГОСБЕРЕЖЕНИЕ НОВОГО ПОКОЛЕНИЯ</span>
-			</div>
+          </div>
+      </div>
+    <!--BLOCK-VIDEO-->
+    <div class="vid-back">
+      <div class="vid-cont">
+        <span class="vid-logo"><img src="./materials/images/vid-logo.png" alt=""></span>
+        <span class="vid-title">ЭКСТРУДИРОВАНЫЙ ПЕНОПОЛИСТИРОЛ</span>
+        <img src="./materials/images/vid-shadow.png" class="vid-shadow" alt="">
+        <div class="vid-frame_place">
+          <iframe src="https://www.youtube.com/embed/qlBan550_xM" class="vid-frame">Ваш браузер не поддерживает встроенные фреймы!</iframe>
+        </div>
+        <div class="vid-text">
+          Многолетний опыт применения экструдированного пенополистирола в различных отраслях строительства доказывает <br>высокую эффективность его использования. Наша компания производит экструдированный пенополистирол на <br>высококачественном европейском оборудовании, соблюдая мировые стандарты качества. <br>
+          <br>
+          Торговая марка <strong>NOVABOARD</strong> много лет на украинском рынке и за это время мы не только вышли на лидирующие позиции,<br>
+          но и доказали, что NOVABOARD– это гарантия качества, проверенная временем. Наш бренд - это наша репутация.<br> 
+          Мы завоевываем ее, легко справляясь с любыми задачами. Это понимают наши партнеры в <br> процессе взаимодействия с нами.
+        </div>
+        <div class="vid-a_pos">
+          <a href="#" class="vid-a">УЗНАТЬ ПОДРОБНЕЕ</a>
+        </div>
+      </div>
+    </div>
+    <!--BLOCK-SFERA-->
+    <div class="sf-back">
+      <div class="sf-cont">
+        <span class="sf-title">СФЕРА ПРИМЕНЕНИЯ</span>
+        <div class="sf-left">
+          <div class="sf-shadow_left"></div>
+          <div class="sf-white_left"></div>
+          <div class="sf-logo_left"><img src="./materials/images/sf-logo.png" alt=""></div>
+          <div class="sf-title_1">ГРАЖДАНСКОЕ СТРОИТЕЛЬСТВО</div>
+          <div class="sf-left_text">
+            <p>ЖИЛЫЕ ДОМА</p><br>
+            <p>ОФИСНЫЕ ЗДАНИЯ</p><br>
+            <p>ТОРГОВО - РАЗВЛЕКАТЕЛЬНЫЕ КОМПЛЕКСЫ</p>
+          </div>
+        </div>
+        <div class="sf-right">
+              <div class="sf-shadow_right"></div>
+              <div class="sf-white_right"></div>
+              <div class="sf-logo_right"><img src="./materials/images/sf-logo.png" alt=""></div>
+              <div class="sf-title_2">ПРОМЫШЛЕННОЕ СТРОИТЕЛЬСТВО</div>
+              <div class="sf-right_text">
+                <p>СПОРТИВНЫЕ СООРУЖЕНИЯ - ЛЕДОВЫЕ АРЕНЫ</p><br>
+                <p>АНГАРЫ И СКЛАДЫ</p><br>
+                <p>ЗАВОДЫ И ФАБРИКИ</p>
+              </div>
+        </div>
+        <div class="sf-im_block1">
+          <div class="sf-im_1">
+            <img src="./materials/images/sf-im_1.png" class="img-1" alt="">
+          </div>
+          <div class="sf-im_2">
+            <img src="./materials/images/sf-im_2.png" class="img-2" alt="">
+          </div>
+          <div class="sf-im_3">
+            <img src="./materials/images/sf-im_3.png" class="img-3" alt="">
+          </div>
+        </div>
+        <div class="sf-im_block2">
+          <div class="sf-im_4">
+            <img src="./materials/images/sf-im_4.png" class="img-4" alt="">
+          </div>
+          <div class="sf-im_5">
+            <img src="./materials/images/sf-im_5.png" class="img-5" alt="">
+          </div>
+          <div class="sf-im_6">
+            <img src="./materials/images/sf-im_6.png" class="img-6" alt="">
+          </div>
+        </div>
+     </div>
+    </div>
+    <!--BLOCK-TECH-->
+    <div class="tech-back">
+      <div class="tech-cont">
+        <div class="tech-layer"></div>
+        <div class="tech-shadow"><img src="./materials/images/tech-shadow.png" alt=""></div>
+        <div class="tech-logo"><img src="./materials/images/tech-logo.png" alt=""></div>
+        <span class="tech-title">ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</span>
+        <div class="tech-global_table">
+          <table class="tech-table" cellpadding="0" cellspacing="0">
+            <tr>
+              <td>ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</td>
+              <td>НОРМАТИВ</td>
+              <td>ПСБ-20</td>
+              <td>ПСБ-30</td>
+              <td>ПСБ-40</td>
+              <td>ПСБ-60</td>
+              <td>ПСБ-60-120</td>
+            </tr>
+            <tr>
+              <td>Плотность кг/м3</td>
+              <td>ГОСТ15588-86</td>
+              <td>30-32</td>
+              <td>30-32</td>
+              <td>30-32</td>
+              <td>30-32</td>
+              <td>30-32</td>
+            </tr>
+            <tr>
+              <td>Теплопроводность при 25°С (λ<sub>25</sub> ) Вт/мК </td>
+              <td>ГОСТ 7076-99</td>
+              <td>0,03</td>
+              <td>0,03</td>
+              <td>0,03</td>
+              <td>0,03</td>
+              <td>0,03</td>
+            </tr>
+            <tr>
+              <td>Теплопроводность (λ<sub>A</sub>) Вт/мК</td>
+              <td>ГОСТ 7076-99</td>
+              <td>0,0031</td>
+              <td>0,0031</td>
+              <td>0,0031</td>
+              <td>0,0031</td>
+              <td>0,0031</td>
+            </tr>
+            <tr>
+              <td>Теплопроводность (λ<sub>Б</sub>) Вт/мК</td>
+              <td>ГОСТ 7076-99</td>
+              <td>0,0032</td>
+              <td>0,0032</td>
+              <td>0,0032</td>
+              <td>0,0032</td>
+              <td>0,0032</td>
+            </tr>
+            <tr>
+              <td>Прочность на сжатие при 10% деформации, МПа</td>
+              <td>ГОСТ 15588-86</td>
+              <td>0,2</td>
+              <td>0,25</td>
+              <td>0,41</td>
+              <td>0,5</td>
+              <td>0,6</td>
+            </tr>
+            <tr>
+              <td>Предел прочности при изгибе, МПа</td>
+              <td>ГОСТ 15588-86</td>
+              <td>0,25</td>
+              <td>0,4</td>
+              <td>0,4</td>
+              <td>0,4 - 0,7</td>
+              <td>0,4 - 0,7</td>
+            </tr>
+            <tr>
+              <td>Модуль упругости, МПА</td>
+              <td> </td>
+              <td>15</td>
+              <td>15</td>
+              <td>18</td>
+              <td>18</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>Водопоглощение за 24 часа, % по объему</td>
+              <td>ГОСТ 15588-86</td>
+              <td>0,4</td>
+              <td>0,4</td>
+              <td>0,4</td>
+              <td>0,4</td>
+              <td>0,4</td>
+            </tr>
+            <tr>
+              <td>Паропроницаемость (μ) мг/м·ч·Па</td>
+              <td>ГОСТ 25898-83</td>
+              <td>0,008</td>
+              <td>0,007</td>
+              <td>0,007</td>
+              <td>0,007</td>
+              <td>0,008</td>
+            </tr>
+            <tr>
+              <td>Капилярное увлажнение</td>
+              <td> </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Коэфициент линейного теплового расширения</td>
+              <td> </td>
+              <td>7х10-5</td>
+              <td>7х10-5</td>
+              <td>7х10-5</td>
+              <td>7х10-5</td>
+              <td>7х10-5</td>
+            </tr>
+            <tr>
+              <td>Пожарные характеристики</td>
+              <td>ГОСТ 30244-94</td>
+              <td>Г1</td>
+              <td>Г1</td>
+              <td>Г1</td>
+              <td>Г1</td>
+              <td>Г1</td>
+            </tr>
+            <tr>
+              <td>Температура применения, °С</td>
+              <td> </td>
+              <td>-50...+75</td>
+              <td>-50...+75</td>
+              <td>-50...+75</td>
+              <td>-50...+75</td>
+              <td>-50...+75</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--BLOCK-RESH-->
+    <div class="resh-back">
+      <div class="resh-cont">
+        <span class="resh-title">КАКИЕ ЗАДАЧИ РЕШАЕТ?</span>
+        <table class="resh-table" cellpadding="0" cellspacing="0">
+          <col class="col-1">
+          <col class="col-2">
+          <col class="col-3">
+          <col class="col-4">
+          <col class="col-5">
+          <col class="col-6"> 
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Потери тепла</td>
+            <td>Высокая теплоизоляция, эффективность в суровых погодных условиях.</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Проникновение шума</td>
+            <td>Индекс снижения приведенного уровня ударного шума — 25 Дб.</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Грибок, сырость</td>
+            <td>Гидроизоляционные свойства. Низкое влагопоглощение – 0,1%</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Выделение вредных веществ</td>
+            <td>Благодаря радикальной полимеризации стирола PENOBOARD не токсичен, биологически нейтрален, отвечает высоким экологическим стандартам.</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Расточительность</td>
+            <td>В масштабах государства – снижение энергоемкости производства и экономия традиционных ресурсов, в масштабах каждого отдельного дома – сбережение тепла и экологии помещений, снижение трат на отоплении.</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Пожароопасность</td>
+            <td>Пожаробезопасность – Г1. PENOBOARD не поддерживает горение после прекращения контакта с открытым огнем.</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--BLOCK-SERT-->
+    <div class="sert-cont">
+      <div class="sert-logo"><img src="./materials/images/sert-logo.png" alt=""></div>
+      <span class="sert-title">СЕРТИФИКАТЫ КАЧЕСТВА И ПРЕМИИ</span>
+      <div class="sert-sert popup-gallery">
+       <a href="./materials/images/sert-1-big.png" title="The Cleaner"><img src="./materials/images/sert-1.png"></a>
+       <a href="./materials/images/sert-2-big.png" title="The Cleaner"><img src="./materials/images/sert-2.png"></a>
+       <a href="./materials/images/sert-3-big.png" title="The Cleaner"><img src="./materials/images/sert-3.png"></a>
+       <a href="./materials/images/sert-4-big.png" title="The Cleaner"><img src="./materials/images/sert-4.png"></a>
+       <a href="./materials/images/sert-5-big.png" title="The Cleaner"><img src="./materials/images/sert-5.png"></a>
+      </div>
 
-		</div>
+<!--
+      <div class="swiper-container_1 sert-sert   popup-gallery">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="./materials/images/sert-1-big.png" title="The Cleaner"><img src="./materials/images/sert-1.png"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./materials/images/sert-2-big.png" title="The Cleaner"><img src="./materials/images/sert-2.png"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./materials/images/sert-3-big.png" title="The Cleaner"><img src="./materials/images/sert-3.png"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./materials/images/sert-4-big.png" title="The Cleaner"><img src="./materials/images/sert-4.png"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./materials/images/sert-5-big.png" title="The Cleaner"><img src="./materials/images/sert-5.png"></a>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+<!--       <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+<!--       <div class="swiper-button-next but-right"></div>
+        <div class="swiper-button-prev but-left"></div>
+      </div>
+-->
+        
+
+
+
+
+
+
+      <span class="sert-text">ПРЕМИЯ:<br>100 ЛУЧШИХ ТОВАРОВ УКРАИНЫ 2010 И 2011</span>
+      <img src="./materials/images/sert-konkurs.png" alt="" class="sert-img">
+    </div>
+    <!--KONTAKT-->
+    <div class="kontakt-cont">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2739.606459634363!2d32.60084751640991!3d46.63453637913204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c41ac7ccafaacf%3A0x114f2cc2fc25fb82!2z0YPQuy4g0K_RgNC-0YHQu9Cw0LLQsCDQnNGD0LTRgNC-0LPQviwgNDEsINCl0LXRgNGB0L7QvSwg0KXQtdGA0YHQvtC90YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA3MzAwOQ!5e0!3m2!1sru!2sus!4v1548156223069" width="" height="" frameborder="0" style="border:0" allowfullscreen class="kontakt-maps"></iframe>
+      <div class="kontakt-text">
+        <div class="kontakt-line"></div>
+        <div class="kontakt-text_1">КОНТАКТЫ</div>
+        <div class="kontakt-text_2">ООО «Производственно коммерческая фирма «Элит Пласт» <br>
+         73000, Украина, г. Херсон, ул Советская, 41-А</div>
+        <div class="kontakt-text_3">тел:+38(0552)123-456, 789-403; факс:+38(0552)123-214 <br>
+         <a href="mailto:info@novaboard.com">e-mail:info@novaboard.com</a></div> 
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="foot-back">
+      <div class="foot-cont">
+        <div class="foot-logo_logo">
+          <a href="#"><img src="./materials/images/foot-logo_logo.png" alt=""></a>
+        </div>
+        <div class="foot-logo_text">
+          <a href="#"><img src="./materials/images/foot-logo_text.png" alt=""></a>
+        </div>
+        <span class="foot-text_1">2015 &copy;</span>
+        <span class="foot-text_2">мы в социальных сетях</span>
+        <div class="foot-net">
+          <a href="#" ><img src="./materials/images/foot-zero.png" alt="" class="foot-in"></a>
+          <a href="#" ><img src="./materials/images/foot-zero.png" alt="" class="foot-vk"></a>
+        </div>
+        <div  class="foot-text_3">
+          <a href="#">РАЗРАБОТКА САЙТА - СТУДИЯ WEZOM</a>
+        </div>
+      </div>
+    </div>
 
 		<!-- Swiper JS -->
   <script src="./materials/swiper.js"></script>
+  <script src="./materials/script.js"></script>
+  <script src="./materials/jquery.magnific-popup.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    /*var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });*/
-    var swiper = new Swiper('.swiper-container', {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 4500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>		
 	</body>
 </html>
