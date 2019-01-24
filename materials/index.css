@@ -42,7 +42,8 @@ body {
 	font-family: Arial, sans-serif;
 	margin:16px 18px;
 }
-.ul-cont a:hover {
+.ul-cont a:hover,
+.is-active {
 	border-bottom: 2px solid #fff;
 	border-top: 2px solid #fff;
 }
