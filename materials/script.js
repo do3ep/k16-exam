@@ -48,13 +48,3 @@ $(document).ready(function() {
         prevEl: '.swiper-button-prev',
       },
     });
-
-    /*Lightbox gallery*/
-    /*var swiper = new Swiper('.swiper-container_1', {
-      slidesPerView: 5,
-      spaceBetween: 70,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });*/

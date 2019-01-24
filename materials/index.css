@@ -555,6 +555,7 @@ body {
 /*BLOCK-TECH*/
 .tech-back {
 	width: 100%;
+
 	height: 759px;
 	background: url(./images/tech-back.png) no-repeat;
 	background-position: center;
@@ -736,7 +737,8 @@ td {
 .sert-sert {
 	position: absolute;
 	top: 107px;
-	left: 50px;
+	width: 100%;
+	text-align: center;
 }
 .sert-sert a+a {
 	margin-left: 34px;
@@ -754,7 +756,10 @@ td {
 .sert-img {
 	position: absolute;
 	top: 396px;
-	left: 434px;
+	left: 0;
+	right: 0;
+    margin-left: auto;
+	margin-right: auto;
 }
 /*KONTAKT*/
 .kontakt-cont {
@@ -946,4 +951,18 @@ td {
 	height: 1260px;
     }
 }
-
+@media (max-width: 1030px) {
+	.ul-cont li {
+	float: left;
+	font-size: 16px;
+	font: Arial, sans-serif;
+	margin:10px 14px;
+    }
+    .sert-sert a+a {
+	margin-left: 26px;
+    }
+    .tech-table {
+	width: 900px;
+	height: 545px;
+	}
+}
