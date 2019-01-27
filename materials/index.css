@@ -137,7 +137,6 @@ body {
     top: 140px;
 }
 .swiper-slide {
-    text-align: center;
     font-size: 18px;
     background: #fff;
 /* Center slide text vertically */
@@ -156,7 +155,7 @@ body {
 }
 .sl-block {
 	position: absolute;
-	top: 459px;
+	top: 318px;
 	left: 0;
 	width: 768px;
 	height: 140px;
@@ -164,18 +163,44 @@ body {
 	opacity: 0.43;
 	z-index: 1;
 }
+.slide-1 {
+	background-image: url(./images/Layer-1.png);
+	width: 980px;
+	height: 493px;
+}
+.slide-2 {
+	background-image: url(./images/Layer-2.png);
+	width: 980px;
+	height: 493px;
+}
+.slide-3 {
+	background-image: url(./images/Layer-3.png);
+	width: 980px;
+	height: 493px;
+}
+.slide-4 {
+	background-image: url(./images/Layer-4.png);
+	width: 980px;
+	height: 493px;
+}
+.slide-5 {
+	background-image: url(./images/Layer-5.png);
+	width: 980px;
+	height: 493px;
+}
 .sl-text_1 {
 	position: absolute;
-	bottom: -61px;
+	top: 353px;
 	left:25px;
 	font-family: EuropeExt,sans-serif;
 	font-size: 30px;
 	color: #fff;
 	z-index: 2;
+	line-height: 29px;
 }
 .sl-text_2 {
 	position: absolute;
-	bottom: -100px;
+	top: 429px;
 	left:25px;
 	font: 24px EuropeExtBold,sans-serif;
 	color: #fff;
