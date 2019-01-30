@@ -137,7 +137,7 @@ body {
     top: 140px;
 }
 .swiper-slide {
-    font-size: 18px;
+	font-size: 18px;
     background: #fff;
 /* Center slide text vertically */
     display: -webkit-box;
@@ -163,28 +163,7 @@ body {
 	opacity: 0.43;
 	z-index: 1;
 }
-.slide-1 {
-	background-image: url(./images/Layer-1.png);
-	width: 980px;
-	height: 493px;
-}
-.slide-2 {
-	background-image: url(./images/Layer-2.png);
-	width: 980px;
-	height: 493px;
-}
-.slide-3 {
-	background-image: url(./images/Layer-3.png);
-	width: 980px;
-	height: 493px;
-}
-.slide-4 {
-	background-image: url(./images/Layer-4.png);
-	width: 980px;
-	height: 493px;
-}
-.slide-5 {
-	background-image: url(./images/Layer-5.png);
+.slide {
 	width: 980px;
 	height: 493px;
 }
